@@ -1,8 +1,11 @@
+import Link from 'next/link';
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="text-center">
-      <h1 className="text-2xl">page - home</h1>
+    <main className="flex flex-col items-center p-24">
+      <span className='text-5xl'>hola mundo</span>
+
+      <Link href={'/about'}>about page</Link>
     </main>
   );
 }

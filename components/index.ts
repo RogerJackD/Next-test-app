@@ -1,5 +1,5 @@
 export * from './navbar/Navbar';
 
 
-//STATIC COMPONENT
+//Client component
 export { ActiveLink } from './active-link/ActiveLink'

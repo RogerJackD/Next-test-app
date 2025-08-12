@@ -3,9 +3,9 @@ import Link from "next/link"
 import { ActiveLink } from "../active-link/ActiveLink"
 
 const navItems = [
-  { path : 'about', text : 'About' },
-  { path : 'pricing', text : 'Pricing' },
-  { path : 'contact', text : 'Contact' },
+  { path : '/about', text : 'About' },
+  { path : '/pricing', text : 'Pricing' },
+  { path : '/contact', text : 'Contact' },
 ]
 export const Navbar = () => {
   return (
